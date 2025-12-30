@@ -3,7 +3,7 @@ import { PhotoExample, BioExample } from './types';
 
 export const HERO_CONTENT = {
   title: "交友軟體高配對SOP",
-  subtitle: "這是專為內向者與理工男打造的\n高配對SOP",
+  subtitle: "這是專為內向者與理工男打造的\n\n高配對SOP",
   description: "你可能在 PTT 看過我的文章，知道照片在交友軟體上的重要性。\n這份SOP，將把我的實戰經驗，濃縮成一套你可以*直接複製、執行*的配對策略，讓你用*最真實的自己*，贏得第一印象。",
   authorImage: "https://freeven-menspalais.notion.site/image/attachment%3A3f9da1cb-dfe2-49f8-aae7-2d98ab78939d%3Amobile2_with_sign.jpg?table=block&id=26cb1383-eee0-809b-9d8f-d70b9d5306d4&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=660&userId=&cache=v2",
   authorName: "男性形象教練｜彭邦典",
