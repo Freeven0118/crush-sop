@@ -25,3 +25,14 @@ export interface SopSection {
   subtitle: string;
   content: string;
 }
+
+export interface HeroContent {
+  title: string;
+  subtitle: string;
+  description: string;
+  authorImage: string;
+  authorName: string;
+  authorTitle: string;
+  authorBio: string;
+  heroImage?: string;
+}
