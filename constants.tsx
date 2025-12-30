@@ -126,7 +126,6 @@ export const CTA_CONTENT = {
   subtext: "看完SOP，你知道該怎麼做了。但「知道」不等於「做到」。\n\n如果你不想繼續盲目摸索，我把這幾年的教學與實戰經驗，濃縮成了五週、總共10小時的系統化訓練。\n\n除了讓你在交友軟體獲得高配對率，也會帶著你把外表升級、在社群上打造好形象，全面啟動你的「*吸引力開關*」\n\n不只讓女生不自覺多看你一眼，也讓你不再需要費力討好，而是能夠自信地通過擇偶視覺門檻，穩穩拿下戀愛的入場券！",
   buttonText: "查看「自信魅力 SOP」完整計畫",
   link: "https://www.menspalais.com/",
-  image: "https://freeven-menspalais.notion.site/image/attachment%3A56b6b9c9-9f33-4af5-a825-469ffb6c202a%3ASOP.png?table=block&id=26db1383-eee0-806c-abb0-ed547a01524c&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=1060&userId=&cache=v2",
   socials: [
     { 
       name: "Email", 
