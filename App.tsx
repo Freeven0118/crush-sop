@@ -207,12 +207,12 @@ const App: React.FC = () => {
             {currentStep === 3 && (
                <div className="text-center space-y-8 mb-14 animate-slide-down">
                  <div className="inline-block px-6 py-3 bg-slate-900 text-white rounded-full text-lg font-bold tracking-wider">SOP 2</div>
-                 <h2 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight">
-                   高配對率照片：<br/>
+                 <h2 className="text-4xl md:text-7xl font-black text-slate-900 leading-tight">
+                   高配對率照片的<br/>
                    <span className="text-amber-500">鑽石三原則</span>
                  </h2>
-                 <p className="text-2xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
-                   照片是交友軟體中最重要的資產，能否配對幾乎99%取決於照片。<br/>
+                 <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
+                   照片是交友軟體中最重要的資產，能否配對幾乎99%取決於照片。<br/><br/>
                    這也是為什麼9成以上的男性在玩交友軟體時感到非常挫敗的原因，因為他們放的照片毫無方法與策略。
                  </p>
                </div>
