@@ -380,7 +380,7 @@ const App: React.FC = () => {
                          <div className="text-green-700 font-black text-2xl flex items-center gap-3 relative z-10">
                            <span>✅</span> 正確範例
                          </div>
-                         <p className="whitespace-pre-line text-slate-800 font-medium text-2xl md:text-3xl leading-relaxed relative z-10 text-justify text-pretty">
+                         <p className="whitespace-pre-line text-slate-800 font-medium text-xl md:text-2xl leading-relaxed relative z-10 text-justify text-pretty">
                            <HighlightText text={bio.goodBio} mode="light" />
                          </p>
                       </div>
