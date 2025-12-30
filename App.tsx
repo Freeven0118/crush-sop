@@ -91,9 +91,9 @@ const App: React.FC = () => {
           <div className="flex-1 flex flex-col justify-center items-center px-6 animate-fade-in py-10">
             <div className="max-w-5xl mx-auto text-center space-y-12">
 
-              <h1 className="text-4xl md:text-3xl font-display font-black text-slate-900 tracking-tight leading-tight">
+              <h1 className="text-6xl md:text-8xl font-display font-black text-slate-900 tracking-tight leading-tight">
                 {HERO_CONTENT.title}
-                <span className="block text-2xl md:text-3xl text-slate-500 font-bold mt-8 font-sans leading-normal">
+                <span className="block text-3xl md:text-6xl text-slate-500 font-bold mt-8 font-sans leading-normal whitespace-pre-line">
                   {HERO_CONTENT.subtitle}
                 </span>
               </h1>
@@ -140,7 +140,7 @@ const App: React.FC = () => {
               <div className="w-full md:col-span-7 flex flex-col justify-center space-y-10 md:pt-10">
                  <div className="space-y-3 text-center md:text-left">
                     <h3 className="text-4xl md:text-5xl font-black text-slate-900">{HERO_CONTENT.authorName}</h3>
-                    <p className="text-amber-600 font-bold text-2xl">{HERO_CONTENT.authorTitle}</p>
+                    <p className="text-amber-600 font-bold text-2xl whitespace-pre-line">{HERO_CONTENT.authorTitle}</p>
                  </div>
 
                  <div className="relative bg-white p-8 md:p-10 rounded-3xl border border-slate-100 shadow-sm">
@@ -174,8 +174,8 @@ const App: React.FC = () => {
               </div>
               
               <div className="bg-white/10 backdrop-blur-md p-10 md:p-14 rounded-[2.5rem] border border-white/20 shadow-2xl">
-                 <p className="text-2xl md:text-2xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
-                   <span className="text-amber-300 text-2xl mr-2 block mb-4">“</span>
+                 <p className="text-2xl md:text-3xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
+                   <span className="text-amber-300 text-4xl mr-2 block mb-4">“</span>
                    <HighlightText text={SOP_MINDSET.quote} mode="dark" />
                  </p>
               </div>
@@ -207,7 +207,7 @@ const App: React.FC = () => {
             {currentStep === 3 && (
                <div className="text-center space-y-8 mb-14 animate-slide-down">
                  <div className="inline-block px-6 py-3 bg-slate-900 text-white rounded-full text-lg font-bold tracking-wider">SOP 2</div>
-                 <h2 className="text-4xl md:text-7xl font-black text-slate-900 leading-tight">
+                 <h2 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight">
                    高配對率照片的<br/>
                    <span className="text-amber-500">鑽石三原則</span>
                  </h2>
