@@ -174,8 +174,8 @@ const App: React.FC = () => {
               </div>
               
               <div className="bg-white/10 backdrop-blur-md p-10 md:p-14 rounded-[2.5rem] border border-white/20 shadow-2xl">
-                 <p className="text-3xl md:text-4xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
-                   <span className="text-amber-300 text-5xl mr-2 block mb-4">“</span>
+                 <p className="text-3xl md:text-3xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
+                   <span className="text-amber-300 text-3xl mr-2 block mb-4">“</span>
                    <HighlightText text={SOP_MINDSET.quote} mode="dark" />
                  </p>
               </div>
