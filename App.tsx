@@ -91,7 +91,7 @@ const App: React.FC = () => {
           <div className="flex-1 flex flex-col justify-center items-center px-6 animate-fade-in py-10">
             <div className="max-w-5xl mx-auto text-center space-y-12">
 
-              <h1 className="text-6xl md:text-8xl font-display font-black text-slate-900 tracking-tight leading-tight">
+              <h1 className="text-3xl md:text-8xl font-display font-black text-slate-900 tracking-tight leading-tight">
                 {HERO_CONTENT.title}
                 <span className="block text-3xl md:text-6xl text-slate-500 font-bold mt-8 font-sans leading-normal">
                   {HERO_CONTENT.subtitle}
