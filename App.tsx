@@ -314,7 +314,7 @@ const App: React.FC = () => {
             
             <div className="flex justify-center pt-10">
                <button onClick={nextStep} className="w-full md:w-auto px-14 py-6 bg-amber-500 hover:bg-amber-400 text-slate-900 text-2xl md:text-3xl font-black rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                 {currentStep === 6 ? '照片部分結束，進入自介攻略' : '了解，下一個原則'}
+                 {currentStep === 6 ? '看自介攻略' : '下一個原則'}
                </button>
             </div>
           </div>
