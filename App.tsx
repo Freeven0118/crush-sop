@@ -91,13 +91,13 @@ const App: React.FC = () => {
           <div className="flex-1 flex flex-col justify-center items-center px-6 animate-fade-in py-10">
             <div className="max-w-5xl mx-auto text-center space-y-12">
 
-              <h1 className="text-6xl md:text-8xl font-display font-black text-slate-900 tracking-tight leading-tight">
+              <h1 className="text-4xl md:text-7xl font-display font-black text-slate-900 tracking-tight leading-tight whitespace-nowrap md:whitespace-normal">
                 {HERO_CONTENT.title}
-                <span className="block text-3xl md:text-6xl text-slate-500 font-bold mt-8 font-sans leading-normal whitespace-pre-line">
+                <span className="block text-2xl md:text-4xl text-slate-500 font-bold mt-4 font-sans leading-normal whitespace-pre-line">
                   {HERO_CONTENT.subtitle}
                 </span>
               </h1>
-              <p className="text-2xl md:text-3xl text-slate-600 max-w-3xl mx-auto leading-relaxed whitespace-pre-line">
+              <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed whitespace-pre-line">
                 <HighlightText text={HERO_CONTENT.description} mode="light" />
               </p>
               
@@ -118,7 +118,7 @@ const App: React.FC = () => {
         {currentStep === 1 && (
           <div className="max-w-6xl mx-auto px-6 animate-fade-in py-4 md:py-10 flex flex-col h-full">
             <div className="text-center space-y-4 mb-10 shrink-0">
-               <h2 className="text-4xl md:text-6xl font-black text-slate-900 leading-tight">
+               <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
                  在開始之前，<br className="md:hidden" />先認識你的教練。
                </h2>
             </div>
@@ -137,15 +137,15 @@ const App: React.FC = () => {
               </div>
 
               {/* Text Section */}
-              <div className="w-full md:col-span-7 flex flex-col justify-center space-y-10 md:pt-10">
+              <div className="w-full md:col-span-7 flex flex-col justify-center space-y-8 md:pt-10">
                  <div className="space-y-3 text-center md:text-left">
-                    <h3 className="text-4xl md:text-5xl font-black text-slate-900">{HERO_CONTENT.authorName}</h3>
-                    <p className="text-amber-600 font-bold text-2xl whitespace-pre-line">{HERO_CONTENT.authorTitle}</p>
+                    <h3 className="text-3xl md:text-4xl font-black text-slate-900">{HERO_CONTENT.authorName}</h3>
+                    <p className="text-amber-600 font-bold text-xl whitespace-pre-line">{HERO_CONTENT.authorTitle}</p>
                  </div>
 
                  <div className="relative bg-white p-8 md:p-10 rounded-3xl border border-slate-100 shadow-sm">
                     <span className="absolute -top-6 -left-4 text-8xl text-amber-200 font-serif leading-none">“</span>
-                    <p className="relative z-10 text-2xl md:text-3xl text-slate-700 font-medium leading-relaxed text-justify whitespace-pre-line">
+                    <p className="relative z-10 text-lg md:text-xl text-slate-700 font-medium leading-relaxed text-justify whitespace-pre-line">
                        <HighlightText text={HERO_CONTENT.authorBio} mode="light" />
                     </p>
                  </div>
@@ -167,14 +167,14 @@ const App: React.FC = () => {
         {/* STEP 2: Mindset (Dark BG) */}
         {currentStep === 2 && (
           <div className="flex-1 flex flex-col justify-center items-center px-6 animate-fade-in bg-slate-900 text-white min-h-[85vh] w-full pt-10 pb-16">
-            <div className="max-w-5xl mx-auto text-center space-y-14 relative z-10">
+            <div className="max-w-5xl mx-auto text-center space-y-10 relative z-10">
               <div className="space-y-6">
                 <span className="inline-block px-6 py-2 bg-amber-500 text-slate-900 rounded font-black tracking-wider text-xl">SOP 1：心態建設</span>
-                <h2 className="text-5xl md:text-7xl font-black">{SOP_MINDSET.subtitle}</h2>
+                <h2 className="text-4xl md:text-6xl font-black">{SOP_MINDSET.subtitle}</h2>
               </div>
               
               <div className="bg-white/10 backdrop-blur-md p-10 md:p-14 rounded-[2.5rem] border border-white/20 shadow-2xl">
-                 <p className="text-2xl md:text-3xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
+                 <p className="text-xl md:text-2xl font-bold leading-relaxed text-slate-200 whitespace-pre-line text-left">
                    <span className="text-amber-300 text-4xl mr-2 block mb-4">“</span>
                    <HighlightText text={SOP_MINDSET.quote} mode="dark" />
                  </p>
@@ -182,9 +182,9 @@ const App: React.FC = () => {
 
               <div className="bg-slate-800 p-10 rounded-[2rem] border border-slate-700 shadow-xl text-left space-y-6">
                 {/* Removed the extra lightbulb icon to focus on the numbered list */}
-                <div className="space-y-8">
+                <div className="space-y-6">
                     {SOP_MINDSET.points.map((point, i) => (
-                    <p key={i} className="font-bold text-2xl leading-relaxed text-amber-50 pl-2">
+                    <p key={i} className="font-bold text-lg md:text-xl leading-relaxed text-amber-50 pl-2">
                         <HighlightText text={point} mode="dark" />
                     </p>
                     ))}
@@ -207,11 +207,11 @@ const App: React.FC = () => {
             {currentStep === 3 && (
                <div className="text-center space-y-8 mb-14 animate-slide-down">
                  <div className="inline-block px-6 py-3 bg-slate-900 text-white rounded-full text-lg font-bold tracking-wider">SOP 2</div>
-                 <h2 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight">
+                 <h2 className="text-4xl md:text-6xl font-black text-slate-900 leading-tight">
                    高配對率照片的<br/>
                    <span className="text-amber-500">鑽石三原則</span>
                  </h2>
-                 <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
+                 <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
                    照片是交友軟體中最重要的資產，能否配對幾乎99%取決於照片。<br/><br/>
                    這也是為什麼9成以上的男性在玩交友軟體時感到非常挫敗的原因，因為他們放的照片毫無方法與策略。
                  </p>
@@ -235,12 +235,12 @@ const App: React.FC = () => {
                 <div className="space-y-10 p-6 md:p-12 bg-white rounded-[3rem] shadow-xl border border-slate-100">
                   <div className="flex flex-col gap-6 border-b border-slate-100 pb-8">
                     <div className="flex items-center justify-between">
-                        <h3 className="text-3xl md:text-4xl font-black text-slate-800 border-l-[10px] border-amber-400 pl-6 whitespace-pre-line leading-tight">
+                        <h3 className="text-2xl md:text-4xl font-black text-slate-800 border-l-[10px] border-amber-400 pl-6 whitespace-pre-line leading-tight">
                         {example.title}
                         </h3>
                     </div>
                     {example.intro && (
-                        <p className="text-xl md:text-2xl text-slate-600 font-medium leading-relaxed bg-slate-50 p-6 rounded-2xl">
+                        <p className="text-lg md:text-xl text-slate-600 font-medium leading-relaxed bg-slate-50 p-6 rounded-2xl">
                             {/* Intro is light bg */}
                             <HighlightText text={example.intro} mode="light" />
                         </p>
@@ -263,7 +263,7 @@ const App: React.FC = () => {
                       <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100 h-auto">
                         <ul className="space-y-6">
                           {example.goodPoints.map((p, i) => (
-                            <li key={i} className="text-xl md:text-2xl text-slate-800 font-bold flex items-start text-pretty leading-relaxed">
+                            <li key={i} className="text-lg md:text-xl text-slate-800 font-bold flex items-start text-pretty leading-relaxed">
                                {/* Cards are light bg */}
                                <span><HighlightText text={p} mode="light" /></span>
                             </li>
@@ -285,8 +285,8 @@ const App: React.FC = () => {
                       <div className="p-8 bg-red-50 rounded-3xl border border-red-100 h-auto">
                         <ul className="space-y-6">
                           {example.badPoints.map((p, i) => (
-                            <li key={i} className="text-xl md:text-2xl text-slate-800 font-medium flex items-start text-pretty leading-relaxed">
-                               {/* Cards are light bg */}
+                            <li key={i} className="text-lg md:text-xl text-slate-900 font-medium flex items-start text-pretty leading-relaxed">
+                               {/* Changed to slate-900 for darker text */}
                                <span><HighlightText text={p} mode="light" /></span>
                             </li>
                           ))}
@@ -300,10 +300,10 @@ const App: React.FC = () => {
                   <div className="bg-slate-900 text-white p-8 md:p-10 rounded-3xl shadow-lg flex flex-col md:flex-row gap-8 items-start">
                     <div className="text-6xl shrink-0 text-amber-400 drop-shadow-lg pt-2">💡</div>
                     <div className="space-y-6 w-full">
-                      <h4 className="text-amber-400 font-black text-2xl uppercase tracking-wider border-b border-amber-400/30 pb-2 inline-block">
+                      <h4 className="text-amber-400 font-black text-xl md:text-2xl uppercase tracking-wider border-b border-amber-400/30 pb-2 inline-block">
                         教練 SOP 點評
                       </h4>
-                      <p className="text-2xl md:text-3xl font-medium leading-relaxed text-justify md:text-left whitespace-pre-line">
+                      <p className="text-lg md:text-xl font-medium leading-relaxed text-justify md:text-left whitespace-pre-line">
                         <HighlightText text={example.coachComment} mode="dark" />
                       </p>
                     </div>
@@ -326,17 +326,17 @@ const App: React.FC = () => {
              {currentStep === 7 && (
                <div className="text-center space-y-8 mb-14 animate-slide-down">
                  <div className="inline-block px-6 py-3 bg-slate-900 text-white rounded-full text-lg font-bold tracking-wider">SOP 3</div>
-                 <h2 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight">
+                 <h2 className="text-4xl md:text-6xl font-black text-slate-900 leading-tight">
                    自我介紹的<br className="md:hidden" />
                    <span className="text-amber-500">黃金公式</span>
                  </h2>
                  <div className="max-w-4xl mx-auto space-y-8">
-                    <p className="text-2xl text-slate-600 leading-relaxed font-bold">
+                    <p className="text-lg md:text-xl text-slate-600 leading-relaxed font-bold">
                        自我介紹是女生看到你的照片、對你產生初步興趣之後，留下來更認識你的地方。
                     </p>
                     <div className="bg-amber-50 border-2 border-amber-200 rounded-3xl p-6 md:p-8 inline-block shadow-sm">
-                       <span className="block text-2xl md:text-3xl font-black text-amber-500 mb-4 text-left">★ 黃金公式：</span>
-                       <span className="block text-xl md:text-3xl font-bold text-slate-700 leading-relaxed text-left">
+                       <span className="block text-xl md:text-2xl font-black text-amber-500 mb-4 text-left">★ 黃金公式：</span>
+                       <span className="block text-lg md:text-2xl font-bold text-slate-700 leading-relaxed text-left">
                           [專業/身份] + [熱情/興趣細節] 
                           <br className="block mt-2"/>
                           + [最近在做的事情 / 想挑戰的事情]
@@ -360,13 +360,13 @@ const App: React.FC = () => {
                  <div className="space-y-10 animate-fade-in">
                    <div className="flex flex-col md:flex-row md:items-end gap-4 border-b pb-6 border-slate-200">
                       <span className="text-6xl md:text-8xl font-black text-slate-200 leading-none">0{bioIndex + 1}</span>
-                      <h3 className="text-4xl md:text-5xl font-black text-slate-800">{bio.role}</h3>
-                      <span className="text-xl text-amber-500 font-bold pb-2 md:ml-4">關鍵字: {bio.keywords}</span>
+                      <h3 className="text-3xl md:text-4xl font-black text-slate-800">{bio.role}</h3>
+                      <span className="text-lg md:text-xl text-amber-500 font-bold pb-2 md:ml-4">關鍵字: {bio.keywords}</span>
                    </div>
 
                    {bio.headerNote && (
                        <div className="bg-white border-l-8 border-amber-500 p-8 rounded-r-xl shadow-sm">
-                           <p className="text-xl md:text-2xl font-bold text-slate-800 whitespace-pre-line leading-relaxed">
+                           <p className="text-lg md:text-xl font-bold text-slate-800 whitespace-pre-line leading-relaxed">
                                {/* Light bg */}
                                <HighlightText text={bio.headerNote} mode="light" />
                            </p>
@@ -377,28 +377,28 @@ const App: React.FC = () => {
                       {/* Good Bio (Light bg) */}
                       <div className="p-8 md:p-10 rounded-3xl bg-blue-50 border-2 border-blue-200 space-y-8 shadow-xl relative overflow-hidden order-1">
                          <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full blur-[50px] opacity-50" />
-                         <div className="text-green-700 font-black text-2xl flex items-center gap-3 relative z-10">
+                         <div className="text-green-700 font-black text-xl md:text-2xl flex items-center gap-3 relative z-10">
                            <span>✅</span> 正確範例
                          </div>
-                         <p className="whitespace-pre-line text-slate-800 font-medium text-xl md:text-2xl leading-relaxed relative z-10 text-justify text-pretty">
+                         <p className="whitespace-pre-line text-slate-800 font-medium text-lg md:text-xl leading-relaxed relative z-10 text-justify text-pretty">
                            <HighlightText text={bio.goodBio} mode="light" />
                          </p>
                       </div>
 
                       {/* Bad Bio (Light bg) */}
                       <div className="p-8 md:p-10 rounded-3xl bg-slate-100 border border-slate-200 space-y-8 order-2">
-                         <div className="text-red-600 font-black text-2xl flex items-center gap-3">
+                         <div className="text-red-600 font-black text-xl md:text-2xl flex items-center gap-3">
                            <span>❌</span> NG 範例
                          </div>
-                         <p className="whitespace-pre-line text-slate-600 font-mono text-xl md:text-2xl leading-relaxed">
+                         <p className="whitespace-pre-line text-slate-600 font-mono text-lg md:text-xl leading-relaxed">
                            <HighlightText text={bio.badBio} mode="light" />
                          </p>
                       </div>
                    </div>
 
                    <div className="bg-slate-900 p-8 md:p-12 rounded-3xl text-white">
-                      <h4 className="text-amber-400 font-black text-2xl uppercase tracking-wider mb-6 border-b border-white/20 pb-4 inline-block">教練的 SOP 點評</h4>
-                      <p className="text-2xl md:text-3xl font-medium leading-relaxed whitespace-pre-line">
+                      <h4 className="text-amber-400 font-black text-xl md:text-2xl uppercase tracking-wider mb-6 border-b border-white/20 pb-4 inline-block">教練的 SOP 點評</h4>
+                      <p className="text-lg md:text-xl font-medium leading-relaxed whitespace-pre-line">
                         {/* Dark bg */}
                         <HighlightText text={bio.coachComment} mode="dark" />
                       </p>
@@ -422,11 +422,11 @@ const App: React.FC = () => {
              <div className="max-w-4xl mx-auto px-6 relative z-10 space-y-14 text-center pb-24">
                 <h2 className="text-5xl md:text-8xl font-black text-white leading-tight">{CTA_CONTENT.title}</h2>
                 <div className="space-y-10">
-                   <p className="text-2xl md:text-4xl text-white leading-relaxed font-bold whitespace-pre-line text-justify md:text-center">
+                   <p className="text-xl md:text-3xl text-white leading-relaxed font-bold whitespace-pre-line text-justify md:text-center">
                        <HighlightText text={CTA_CONTENT.text} mode="dark" />
                    </p>
                    <div className="h-px w-24 bg-slate-700 mx-auto"></div>
-                   <p className="text-xl md:text-2xl text-white whitespace-pre-line leading-relaxed text-justify md:text-center">
+                   <p className="text-lg md:text-2xl text-white whitespace-pre-line leading-relaxed text-justify md:text-center">
                        <HighlightText text={CTA_CONTENT.subtext} mode="dark" />
                    </p>
                 </div>
