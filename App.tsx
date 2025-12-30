@@ -93,7 +93,7 @@ const App: React.FC = () => {
 
               <h1 className="text-5xl md:text-4xl font-display font-black text-slate-900 tracking-tight leading-tight">
                 {HERO_CONTENT.title}
-                <span className="block text-3xl md:text-6xl text-slate-500 font-bold mt-8 font-sans leading-normal">
+                <span className="block text-2xl md:text-4xl text-slate-500 font-bold mt-8 font-sans leading-normal">
                   {HERO_CONTENT.subtitle}
                 </span>
               </h1>
