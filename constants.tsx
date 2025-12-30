@@ -8,7 +8,7 @@ export const HERO_CONTENT: HeroContent = {
   authorImage: "https://freeven-menspalais.notion.site/image/attachment%3A3f9da1cb-dfe2-49f8-aae7-2d98ab78939d%3Amobile2_with_sign.jpg?table=block&id=26cb1383-eee0-809b-9d8f-d70b9d5306d4&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=660&userId=&cache=v2",
   authorName: "男性形象教練｜彭邦典",
   authorTitle: "🏆 全球城市先生\n🏆 日本萬博演講者",
-  authorBio: "我曾是對外型自卑、在人際關係中跌跌撞撞的宅宅。\n\n直到我發現，「變帥」、「自信」、「魅力」不是靠天賦，而是一套可以學習的「*自信魅力SOP系統*」\n\n這套系統不僅讓我開始改變自己、建立自信、不僅幫我贏下各種比賽，也開始累積不同的交往經驗，更重要的是還幫我贏回了*人生的主導權*。\n\n現在，我想陪你一起複製這條成功路徑。",
+  authorBio: "我曾是對外型自卑、在人際關係中跌跌撞撞的宅宅。\n\n直到我發現，「變帥」、「自信」、「魅力」不是靠天賦，而是一套可以學習的「*自信魅力SOP系統*」\n\n這套系統讓我開始改變自己、建立自信、不僅幫我贏下各種比賽，也開始累積不同的交往經驗，更重要的是還幫我贏回了*人生的主導權*。\n\n現在，我想陪你一起複製這條成功路徑。",
   heroImage: "https://d1yei2z3i6k35z.cloudfront.net/2452254/69536c02e8ec2_NOTION.webp"
 };
 
