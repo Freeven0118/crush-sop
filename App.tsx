@@ -226,8 +226,8 @@ const App: React.FC = () => {
                    <span className="text-amber-500">鑽石三原則</span>
                  </h2>
                  <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto font-medium leading-relaxed">
-                   照片是交友軟體中最重要的資產，能否配對幾乎*99*%取決於照片。<br/><br/>
-                   這也是為什麼9成以上的男性在玩交友軟體時感到非常挫敗的原因，因為他們放的照片毫無*方法與策略*。
+                   照片是交友軟體中最重要的資產，能否配對幾乎99%取決於照片。<br/><br/>
+                   這也是為什麼9成以上的男性在玩交友軟體時感到非常挫敗的原因，因為他們放的照片毫無方法與策略。
                  </p>
                </div>
             )}
