@@ -431,12 +431,6 @@ const App: React.FC = () => {
                    </p>
                 </div>
 
-                <div className="py-6">
-                   <a href={CTA_CONTENT.link} target="_blank" rel="noreferrer" className="block hover:opacity-90 transition-opacity">
-                       <img src={CTA_CONTENT.image} alt="SOP Roadmap" className="rounded-3xl shadow-2xl border border-slate-700 mx-auto w-full md:w-auto hover:scale-[1.02] transition-transform" />
-                   </a>
-                </div>
-
                 <a 
                   href={CTA_CONTENT.link} 
                   target="_blank" 
