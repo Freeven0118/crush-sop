@@ -440,7 +440,7 @@ const App: React.FC = () => {
                        <HighlightText text={CTA_CONTENT.text} mode="dark" />
                    </p>
                    <div className="h-px w-24 bg-slate-700 mx-auto"></div>
-                   <p className="text-lg md:text-2xl text-white whitespace-pre-line leading-relaxed text-justify md:text-center">
+                   <p className="text-xl md:text-3xl text-white leading-relaxed font-bold whitespace-pre-line text-justify md:text-center">
                        <HighlightText text={CTA_CONTENT.subtext} mode="dark" />
                    </p>
                 </div>
