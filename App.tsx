@@ -133,7 +133,7 @@ const App: React.FC = () => {
           <div className="max-w-6xl mx-auto px-6 animate-fade-in py-4 md:py-10 flex flex-col h-full">
             <div className="text-center space-y-4 mb-10 shrink-0">
                <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
-                 在開始之前，<br className="md:hidden" />先認識你的教練。
+                 在開始之前，<br className="md:hidden" />簡單自我介紹。
                </h2>
             </div>
 
