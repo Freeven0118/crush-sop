@@ -5,11 +5,11 @@ export const HERO_CONTENT = {
   title: "交友軟體高配對SOP",
   subtitle: "這是專為內向者與理工男打造的高配對SOP",
   description: "你可能在 PTT 看過我的文章，知道照片在交友軟體上的重要性。\n這份SOP，將把我的實戰經驗，濃縮成一套你可以*直接複製、執行*的配對策略，讓你用*最真實的自己*，贏得第一印象。",
-  heroImage: "https://img.notionusercontent.com/s3/prod-files-secure%2F062b1383-eee0-8134-896c-0003dbe5fa46%2F5ebc340a-83ff-4a5f-ab18-2363f7dd1d69%2FNOTION.png/size/w=2000?exp=1767158453&sig=9LadlA7ID74vucjuyfK8dOwVWyheieNCkgHgKEP1GHw&id=26ab1383-eee0-80d6-8af7-ed97e0ba76d6&table=block",
+  heroImage: "https://freeven-menspalais.notion.site/image/attachment%3A5ebc340a-83ff-4a5f-ab18-2363f7dd1d69%3ANOTION.png?table=block&id=26ab1383-eee0-80d6-8af7-ed97e0ba76d6&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=2000&userId=&cache=v2",
   authorImage: "https://freeven-menspalais.notion.site/image/attachment%3A3f9da1cb-dfe2-49f8-aae7-2d98ab78939d%3Amobile2_with_sign.jpg?table=block&id=26cb1383-eee0-809b-9d8f-d70b9d5306d4&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=660&userId=&cache=v2",
   authorName: "男性形象教練｜彭邦典",
   authorTitle: "🏆 全球城市先生\n日本萬博演講者",
-  authorBio: "我曾是跟你一樣，對外型自卑、在人際關係中跌跌撞撞的宅宅。\n\n直到我發現，「變帥」、「自信」、「魅力」不是靠天賦，而是一套可以學習的「*自信魅力SOP系統*」\n\n這套系統不僅讓我贏得冠軍，更重要的，是幫我贏回了*人生的主導權*。\n\n現在，我想陪你一起複製這條成功路徑。"
+  authorBio: "我曾是跟你一樣，對外型自卑、在人際關係中跌跌撞撞的宅宅。\n\n直到我發現，「變帥」、「自信」、「魅力」不是靠天賦，而是一套可以學習的\n「*自信魅力SOP系統*」\n\n這套系統不僅讓我贏得冠軍，更重要的，是幫我贏回了*人生的主導權*。\n\n現在，我想陪你一起複製這條成功路徑。"
 };
 
 export const SOP_MINDSET = {
@@ -18,14 +18,14 @@ export const SOP_MINDSET = {
   quote: "你的交友軟體個人檔案，並不是一個求偶履歷，而是一個「*商品DM*」，它唯一的作用是把你的個人特質包裝成有魅力的商品。因此我們的目標不是討好所有人，而是要*精準吸引*到會欣賞你價值的人。",
   points: [
     "1. 我理解我的目標不是「配對越多越好」，而是*「配對越準越好」*。",
-    "2. 我不在個人檔案*說謊偽裝*。",
-    "3. 我明白這是一場行銷，需要\n*策略*，而非運氣。"
+    "2. 我不在個人檔案上*說謊或偽裝*。",
+    "3. 我明白這是一場行銷，需要*策略*，而非運氣。"
   ]
 };
 
 export const PHOTO_EXAMPLES: PhotoExample[] = [
   {
-    title: "原則一：高質感露臉照\n( 建立吸引與信任 )",
+    title: "原則一：打造高質感露臉照\n( 建立吸引與信任 )",
     intro: "拍攝你的「第一印象」照片。女生的大腦會在0.5秒內快速掃描並判斷：「他是怪人嗎？他的長相我能接受嗎？」我們的目標，就是用一張*高質感*的照片，在這兩個問題都拿分。",
     goodImage: "https://freeven-menspalais.notion.site/image/attachment%3A68a4c658-223b-45e3-9f83-4e61e22084d2%3A274025d5-c80d-4606-8795-af4f23580bd1.png?table=block&id=26cb1383-eee0-8053-9a96-e1804c26f2c2&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=480&userId=&cache=v2",
     badImage: "https://freeven-menspalais.notion.site/image/attachment%3A8ac5a896-dff2-4e07-898b-ee4c69d5df26%3AuS52hX3.jpeg?table=block&id=26cb1383-eee0-805f-beba-f2e99daee3f6&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=480&userId=&cache=v2",
@@ -42,7 +42,7 @@ export const PHOTO_EXAMPLES: PhotoExample[] = [
     coachComment: "你的照片就是在給予暗示：「認識你會「*加分*」還是「*扣分*」？」\n\n正確示範的照片，充滿了陽光、笑容和質感，這是在暗示對方：「我的生活充滿正能量，跟我在一起，你的生活也會更美好。」\n\n錯誤示範的照片，則充滿不確定與平淡感，這是一種無形的社交成本。\n\n永遠要讓你的*第一印象成為邀請*，而不是謎題。"
   },
   {
-    title: "原則二：生活故事照\n( 展示興趣愛好 )",
+    title: "原則二：生活故事照\n展示興趣愛好",
     intro: "這種照片在回答：「*跟你在一起的生活*，會是什麼樣子？」它展示了你的熱情所在，是你吸引同好的關鍵，也是創造嚮往感的最佳工具。",
     goodImage: "https://freeven-menspalais.notion.site/image/attachment%3Adac14a07-f74a-4059-bd6e-242eb8246ec0%3Adb1862f0-784f-48e7-92cb-94979792cff1.png?table=block&id=26bb1383-eee0-80ff-af9e-d0de5fe51ce6&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
     badImage: "https://freeven-menspalais.notion.site/image/attachment%3Ab5379423-335f-4f56-a2b8-3db3e32427c4%3ALINE_ALBUM_%E5%AE%A4%E5%85%A7%E7%AF%84%E4%BE%8B_241109_41.jpg?table=block&id=26bb1383-eee0-806e-9f69-e92e5fa95218&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
@@ -59,7 +59,7 @@ export const PHOTO_EXAMPLES: PhotoExample[] = [
     coachComment: "請記住這個核心區別：「*體驗*」是邀請，「*資產*」是篩選。\n\n分享體驗 (SUP)，是在發出一個開放式的邀請：「來，跟我一起分享這份快樂吧！」\n\n展示資產 (名車)，是在設置一個隱形的門檻：「只有符合我標準的人，才能進入我的世界。」\n\n永遠選擇那些能*邀請別人走進你生活*的照片。"
   },
   {
-    title: "原則二：生活故事照\n( 與熱愛的事物合照 )",
+    title: "原則二：生活故事照\n與熱愛的事物合照",
     intro: "這種照片在回答：「*跟你在一起的生活*，會是什麼樣子？」它展示了你的熱情所在，是你吸引同好的關鍵，也是創造嚮往感的最佳工具。",
     goodImage: "https://freeven-menspalais.notion.site/image/attachment%3A1829cad7-04f2-45f2-b8e6-f44663aa8707%3Acb89211b-0f94-4471-a8bf-bd3d46eaf2a4.png?table=block&id=26bb1383-eee0-80e4-853a-e9c5feb65b0e&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
     badImage: "https://freeven-menspalais.notion.site/image/attachment%3A27a9e342-53d5-446d-ac2f-edc35c2702c9%3AIMG_20240518_073542.jpg?table=block&id=26bb1383-eee0-8063-b4ad-c3869429d126&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=480&userId=&cache=v2",
@@ -122,9 +122,9 @@ export const BIO_EXAMPLES: BioExample[] = [
 ];
 
 export const CTA_CONTENT = {
-  title: "輪到你了",
-  text: "恭喜你，你已經學完了這套SOP的核心。你學會的不僅僅是幾個技巧，而是一種全新的、以「*高價值自信魅力*」為核心的自我展示思維。\n真正的改變，始於*行動*。現在，是時候關掉這個頁面，去更新你的個人檔案。",
-  subtext: "雖然你大致上知道該怎麼做了，但「知道」不等於「做到」。\n\n如果你不想繼續盲目摸索，我把這幾年的教學與實戰經驗，濃縮成了五週、總共10小時的系統化訓練。\n\n除了讓你在交友軟體獲得高配對率，也會帶著你把外表升級、在社群上打造好形象，全面啟動你的「*吸引力開關*」\n\n不只讓女生不自覺多看你一眼，也讓你不再需要費力討好，而是能夠自信地通過擇偶視覺門檻，穩穩拿下戀愛的入場券！",
+  title: "下一步 - 輪到你了",
+  text: "恭喜你，你已經學完了這套SOP的核心。你學會的不僅僅是幾個技巧，而是一種全新的、以「*高價值自信魅力*」為核心的自我展示思維。\n真正的改變，始於*行動*。現在，是時候關掉這個頁面，去更新你的個人檔案了。",
+  subtext: "看完SOP，你知道該怎麼做了。但「知道」不等於「做到」。\n\n如果你不想繼續盲目摸索，我把這幾年的教學與實戰經驗，濃縮成了五週、總共10小時的系統化訓練。\n\n除了讓你在交友軟體獲得高配對率，也會帶著你把外表升級、在社群上打造好形象，全面啟動你的「*吸引力開關*」\n\n不只讓女生不自覺多看你一眼，也讓你不再需要費力討好，而是能夠自信地通過擇偶視覺門檻，穩穩拿下戀愛的入場券！",
   buttonText: "查看「自信魅力 SOP」完整計畫",
   link: "https://www.menspalais.com/",
   socials: [
