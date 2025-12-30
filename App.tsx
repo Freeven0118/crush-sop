@@ -99,6 +99,7 @@ const App: React.FC = () => {
               </h1>
 
               {/* Hero Image - Added */}
+              {HERO_CONTENT.heroImage && (
               <div className="w-full max-w-4xl mx-auto my-6 md:my-10">
                 <div className="relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-slate-200">
                    <img
@@ -108,6 +109,7 @@ const App: React.FC = () => {
                    />
                 </div>
               </div>
+              )}
 
               <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed whitespace-pre-line">
                 <HighlightText text={HERO_CONTENT.description} mode="light" />
@@ -326,7 +328,7 @@ const App: React.FC = () => {
             
             <div className="flex justify-center pt-10">
                <button onClick={nextStep} className="w-full md:w-auto px-14 py-6 bg-amber-500 hover:bg-amber-400 text-slate-900 text-2xl md:text-3xl font-black rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                 {currentStep === 6 ? '觀看自介攻略' : '了解，下一個原則'}
+                 {currentStep === 6 ? '照片部分結束，進入自介攻略' : '了解，下一個原則'}
                </button>
             </div>
           </div>
@@ -447,10 +449,10 @@ const App: React.FC = () => {
                   href={CTA_CONTENT.link} 
                   target="_blank" 
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center w-full md:w-auto px-14 py-8 bg-amber-500 hover:bg-amber-400 text-slate-900 text-2xl md:text-3xl font-black rounded-full shadow-[0_0_40px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1 hover:scale-105"
+                  className="inline-flex items-center justify-center w-full md:w-auto px-6 md:px-14 py-6 md:py-8 whitespace-nowrap bg-amber-500 hover:bg-amber-400 text-slate-900 text-xl md:text-3xl font-black rounded-full shadow-[0_0_40px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1 hover:scale-105"
                 >
                   {CTA_CONTENT.buttonText}
-                  <svg className="w-10 h-10 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                  <svg className="w-6 h-6 md:w-10 md:h-10 ml-2 md:ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </a>
 
                 {/* Footer / Socials */}
