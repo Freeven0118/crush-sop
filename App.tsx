@@ -89,7 +89,7 @@ const App: React.FC = () => {
         {/* STEP 0: Hero (Light BG) */}
         {currentStep === 0 && (
           <div className="flex-1 flex flex-col justify-center items-center px-6 animate-fade-in py-10">
-            <div className="max-w-5xl mx-auto text-center space-y-12">
+            <div className="max-w-5xl mx-auto text-center space-y-10">
 
               <h1 className="text-4xl md:text-7xl font-display font-black text-slate-900 tracking-tight leading-tight whitespace-nowrap md:whitespace-normal">
                 {HERO_CONTENT.title}
@@ -97,11 +97,23 @@ const App: React.FC = () => {
                   {HERO_CONTENT.subtitle}
                 </span>
               </h1>
+
+              {/* Hero Image - Added */}
+              <div className="w-full max-w-4xl mx-auto my-6 md:my-10">
+                <div className="relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-slate-200">
+                   <img
+                     src={HERO_CONTENT.heroImage}
+                     alt="Hero"
+                     className="w-full h-56 md:h-[450px] object-cover hover:scale-105 transition-transform duration-700"
+                   />
+                </div>
+              </div>
+
               <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed whitespace-pre-line">
                 <HighlightText text={HERO_CONTENT.description} mode="light" />
               </p>
               
-              <div className="pt-8 md:pt-16 w-full flex justify-center">
+              <div className="pt-4 md:pt-8 w-full flex justify-center">
                 <button 
                   onClick={nextStep}
                   className="group relative w-full md:w-auto inline-flex items-center justify-center px-12 py-6 text-2xl md:text-3xl font-bold text-white transition-all duration-200 bg-slate-900 font-display rounded-full focus:outline-none hover:bg-amber-500 hover:scale-105 hover:shadow-2xl hover:translate-y-[-4px]"
@@ -314,7 +326,7 @@ const App: React.FC = () => {
             
             <div className="flex justify-center pt-10">
                <button onClick={nextStep} className="w-full md:w-auto px-14 py-6 bg-amber-500 hover:bg-amber-400 text-slate-900 text-2xl md:text-3xl font-black rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                 {currentStep === 6 ? '看自介攻略' : '下一個原則'}
+                 {currentStep === 6 ? '照片部分結束，進入自介攻略' : '了解，下一個原則'}
                </button>
             </div>
           </div>
