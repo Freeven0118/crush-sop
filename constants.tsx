@@ -44,7 +44,7 @@ export const PHOTO_EXAMPLES: PhotoExample[] = [
   {
     title: "原則二：生活故事照\n( 展示興趣愛好 )",
     intro: "這種照片在回答：「*跟你在一起的生活*，會是什麼樣子？」它展示了你的熱情所在，是你吸引同好的關鍵，也是創造嚮往感的最佳工具。",
-    goodImage: "https://freeven-menspalais.notion.site/image/attachment%3Adac14a07-f74a-4059-bd6e-242eb8246ec0%3Adb1862f0-784f-48e7-92cb-94979792cff1.png?table=block&id=26bb1383-eee0-80ff-af9e-d0de5fe51ce6&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
+    goodImage: "https://d1yei2z3i6k35z.cloudfront.net/2452254/69d4837b717889.33794773_cb89211b-0f94-4471-a8bf-bd3d46eaf2a4.webp?table=block&id=26bb1383-eee0-80ff-af9e-d0de5fe51ce6&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
     badImage: "https://freeven-menspalais.notion.site/image/attachment%3Ab5379423-335f-4f56-a2b8-3db3e32427c4%3ALINE_ALBUM_%E5%AE%A4%E5%85%A7%E7%AF%84%E4%BE%8B_241109_41.jpg?table=block&id=26bb1383-eee0-806e-9f69-e92e5fa95218&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
     goodPoints: [
       "【分享體驗，創造邀請】：戶外運動等體驗，是在*邀請對方進入你的世界*，感受你的快樂。",
