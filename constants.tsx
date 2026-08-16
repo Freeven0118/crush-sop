@@ -135,12 +135,12 @@ export const CTA_CONTENT = {
     },
     { 
       name: "Instagram", 
-      link: "https://www.instagram.com/freeven.menspalais/",
+      link: "https://www.instagram.com/freeven.coach/",
       icon: "https://freeven-menspalais.notion.site/image/attachment%3A4ad3b223-33bd-455d-a20f-eb551886f6e7%3Aig.png?table=block&id=26db1383-eee0-8015-836b-f453a5a7332f&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=170&userId=&cache=v2"
     },
     { 
       name: "Threads", 
-      link: "https://www.threads.com/@freeven.menspalais",
+      link: "https://www.threads.com/@freeven.coach",
       icon: "https://freeven-menspalais.notion.site/image/attachment%3A850bedfb-3b6a-4f87-a795-29229dc16a88%3Athreads-app-icon.webp?table=block&id=26db1383-eee0-80dd-be5e-fd24152fa237&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=170&userId=&cache=v2"
     }
   ]
