@@ -45,6 +45,7 @@ export const PHOTO_EXAMPLES: PhotoExample[] = [
     title: "原則二：生活故事照\n( 展示興趣愛好 )",
     intro: "這種照片在回答：「*跟你在一起的生活*，會是什麼樣子？」它展示了你的熱情所在，是你吸引同好的關鍵，也是創造嚮往感的最佳工具。",
     goodImage: "https://d1yei2z3i6k35z.cloudfront.net/2452254/6add878465b523.80851211_rHCNT67.jpg",
+    goodImagePosition: "top",
     badImage: "https://freeven-menspalais.notion.site/image/attachment%3Ab5379423-335f-4f56-a2b8-3db3e32427c4%3ALINE_ALBUM_%E5%AE%A4%E5%85%A7%E7%AF%84%E4%BE%8B_241109_41.jpg?table=block&id=26bb1383-eee0-806e-9f69-e92e5fa95218&spaceId=062b1383-eee0-8134-896c-0003dbe5fa46&width=580&userId=&cache=v2",
     goodPoints: [
       "【分享體驗，創造邀請】：戶外運動等體驗，是在*邀請對方進入你的世界*，感受你的快樂。",

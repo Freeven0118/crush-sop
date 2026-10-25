@@ -271,7 +271,7 @@ const App: React.FC = () => {
                           ✅ 正確示範 (DOs)
                         </div>
                         <div className="w-full h-full bg-white flex items-center justify-center">
-                           <img src={example.goodImage} className="w-full h-full object-contain" alt="Good Example" />
+                           <img src={example.goodImage} className={`w-full h-full ${example.goodImagePosition ? 'object-cover' : 'object-contain'}`} style={example.goodImagePosition ? { objectPosition: example.goodImagePosition } : undefined} alt="Good Example" />
                         </div>
                       </div>
                       <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100 h-auto">

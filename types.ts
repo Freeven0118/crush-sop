@@ -3,6 +3,7 @@ export interface PhotoExample {
   title: string;
   intro?: string; // 新增：原則簡介
   goodImage: string;
+  goodImagePosition?: string; // 設定後照片改為填滿框框，並以此位置對齊（例："top" 保留頭頂）
   badImage: string;
   goodPoints: string[];
   badPoints: string[];
